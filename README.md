@@ -16,7 +16,7 @@
     * Is the **blank** object mutable or immutable? How can you tell?
 
 ```text
-PUT ANSWER TO #2 HERE
+It's mutable because I can modify the x and y coordinates.
 ```
 
 ```java
@@ -87,14 +87,14 @@ Recall that aliases are two variables that refer to the same object.
     * Put the output in the text block below
 
 ```text
-PUT ANSWER TO #2 HERE
+(5, 8)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
     * Put your answer in the text block below
 
 ```text
-PUT ANSWER TO #3 HERE
+No, they refer to different objects
 ```
 
 ```java
@@ -142,7 +142,7 @@ for (int i = 0; i < s.length(); i++) {
     * Screenshot your output and add it to your project as Part3_2.jpg
 3. Generalize the code so that it works on any string.
     * What could you do to generalize it more?
-
+Make it handle things like brackets and curly braces
 ## Part 4: Large Numbers
 
 Many encryption algorithms depend on the ability to raise large integers to a power. Below is a method that implements an efficient algorithm for integer exponentiation:
